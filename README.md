@@ -8,6 +8,14 @@ It's a thin wrapper around the excellent
 [icloudpd](https://github.com/icloud-photos-downloader/icloud_photos_downloader)
 project, which does all the actual work of talking to iCloud.
 
+## Why I built this
+
+
+I was looking for a way to get local copies of my icloud photos. #become ungovernable. Anyways, I used claude to help me do so using the icloudpd project. This was very useful, so I had claude make a simple wrapper to make the process even more streamlined and fool proof. Hopefuly this tool is useful for those of you out there looking for a simple way to backup your apple photos. =)
+
+
+
+
 ## Install
 
 ```bash
