@@ -45,14 +45,8 @@ anything openphotos stores or sees.
 Run it again anytime - it skips photos it's already downloaded, so it
 doubles as an easy way to keep a local backup up to date.
 
-## Why not `apt install openphotos` or `pip install openphotos`?
 
-A real `apt install` requires hosting your own Debian package repository,
-and a bare `pip install openphotos` requires publishing to PyPI - both are
-a lot of infrastructure for a small tool like this. Installing straight
-from this GitHub repo with `pipx` is just as simple to type and run.
-
-## A couple of honest notes
+## A couple of notes
 
 - This tool doesn't touch your Apple ID password - it's passed directly to
   Apple's own servers by `icloudpd`, the same way Apple's own apps do it.
